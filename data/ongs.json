@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "name": "Banco de Ropa BA",
+    "address": "Av. Corrientes 2000, CABA",
+    "creditsPerKg": 100
+  },
+  {
+    "id": "2",
+    "name": "Fundación Huellas",
+    "address": "Av. Cabildo 1500, Belgrano",
+    "creditsPerKg": 90
+  },
+  {
+    "id": "3",
+    "name": "Cáritas Buenos Aires",
+    "address": "Lima 1000, San Telmo",
+    "creditsPerKg": 110
+  }
+]

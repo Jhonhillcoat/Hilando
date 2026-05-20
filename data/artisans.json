@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "María",
+    "specialty": "Modista",
+    "neighborhood": "Villa Crespo",
+    "rating": 4.9,
+    "distance": "1.2 km",
+    "categories": ["vestido", "camisa", "pantalon", "remera"]
+  },
+  {
+    "id": "2",
+    "name": "Lucas",
+    "specialty": "Modista de abrigos",
+    "neighborhood": "Caballito",
+    "rating": 4.8,
+    "distance": "2.4 km",
+    "categories": ["abrigo"]
+  },
+  {
+    "id": "3",
+    "name": "Rosa",
+    "specialty": "Zapatero",
+    "neighborhood": "Flores",
+    "rating": 4.7,
+    "distance": "3.1 km",
+    "categories": ["calzado"]
+  },
+  {
+    "id": "4",
+    "name": "Carla",
+    "specialty": "Modista",
+    "neighborhood": "Almagro",
+    "rating": 4.85,
+    "distance": "1.8 km",
+    "categories": ["vestido", "remera", "camisa"]
+  },
+  {
+    "id": "5",
+    "name": "Diego",
+    "specialty": "Sastre y arreglos",
+    "neighborhood": "Boedo",
+    "rating": 4.75,
+    "distance": "2.0 km",
+    "categories": ["pantalon", "camisa"]
+  }
+]
