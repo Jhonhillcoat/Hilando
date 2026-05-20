@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Logo } from "@/components/Logo";
+import { UserBadge } from "@/components/UserBadge";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -15,7 +16,7 @@ export function Header() {
         <Link href="/" className="transition-all duration-200 ease-out hover:translate-y-[-2px]">
           <Logo sizeClass="text-2xl sm:text-3xl" />
         </Link>
-        <nav className="flex items-center gap-1 sm:gap-3">
+        <nav className="flex items-center gap-2 sm:gap-3">
           {links.map((l) => (
             <Link
               key={l.href}
@@ -28,6 +29,7 @@ export function Header() {
               {l.label}
             </Link>
           ))}
+          <UserBadge />
         </nav>
       </div>
     </header>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import type { Garment } from "@/types/domain";
-import { formatArs } from "@/lib/quiz-logic";
+import { PriceTag } from "@/components/PriceTag";
 import { cn } from "@/lib/utils";
 
 const conditionStyles: Record<string, string> = {
@@ -41,9 +41,7 @@ export function GarmentCard({ garment }: GarmentCardProps) {
             <p className="font-caveat text-lg italic text-terracota">{garment.brand}</p>
             <p className="text-sm text-madera-mute">Talle {garment.size}</p>
           </div>
-          <p className="font-fraunces text-2xl italic text-madera">
-            {formatArs(garment.price)}
-          </p>
+          <PriceTag priceArs={garment.price} size="md" />
           <span
             className={cn(
               "inline-block rounded-full px-2.5 py-0.5 text-xs font-medium",

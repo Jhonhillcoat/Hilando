@@ -4,6 +4,9 @@ import { ArrowLeft } from "lucide-react";
 
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { PriceTag } from "@/components/PriceTag";
+import { formatCredits, priceToCredits } from "@/lib/credits";
+import { DEMO_USER } from "@/lib/user";
 import { formatArs } from "@/lib/quiz-logic";
 import type { Garment } from "@/types/domain";
 import garmentsData from "@/data/garments.json";
@@ -45,7 +48,14 @@ export default function GarmentDetailPage({ params }: PageProps) {
         <div className="space-y-6">
           <p className="font-caveat text-2xl italic text-terracota">{garment.brand}</p>
           <h1 className="font-fraunces text-4xl font-semibold text-madera">{garment.name}</h1>
-          <p className="font-fraunces text-3xl italic text-madera">{formatArs(garment.price)}</p>
+          <PriceTag priceArs={garment.price} size="lg" />
+          <p className="text-sm text-madera-soft">
+            Tu saldo:{" "}
+            <span className="font-medium text-terracota">
+              {formatCredits(DEMO_USER.credits)}
+            </span>{" "}
+            por donaciones anteriores
+          </p>
           <div className="flex flex-wrap gap-2">
             <span className="rounded-full bg-crema-warm px-3 py-1 text-sm text-madera">
               Talle {garment.size}
@@ -77,7 +87,7 @@ export default function GarmentDetailPage({ params }: PageProps) {
                 "h-14 flex-1 rounded-cta bg-terracota text-lg text-crema shadow-hilando hover:bg-terracota-dark"
               )}
             >
-              Comprar — {formatArs(garment.price)}
+              Comprar — {formatArs(garment.price)} · {formatCredits(priceToCredits(garment.price))}
             </button>
             <button
               type="button"
