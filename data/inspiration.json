@@ -1,0 +1,182 @@
+{
+  "vestido-falda": [
+    {
+      "id": "vf-1",
+      "title": "Vestido midi con cintura marcada",
+      "tag": "Transformación",
+      "imageUrl": "https://images.unsplash.com/photo-1595777453413-040271d6f829?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=vestido%20midi%20upcycle%20transformacion"
+    },
+    {
+      "id": "vf-2",
+      "title": "Falda larga reciclada en dos piezas",
+      "tag": "Upcycle",
+      "imageUrl": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=falda%20upcycle%20diy"
+    },
+    {
+      "id": "vf-3",
+      "title": "Escote actualizado sin perder tela",
+      "tag": "Detalle",
+      "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=vestido%20escote%20rediseño"
+    },
+    {
+      "id": "vf-4",
+      "title": "Look boho con vuelo ligero",
+      "tag": "Estilo",
+      "imageUrl": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=vestido%20boho%20reforma"
+    }
+  ],
+  "pantalon-jean": [
+    {
+      "id": "pj-1",
+      "title": "Jean wide leg desde pierna recta",
+      "tag": "Silueta",
+      "imageUrl": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=jean%20wide%20leg%20transformacion"
+    },
+    {
+      "id": "pj-2",
+      "title": "Shorts con detalle de costura visible",
+      "tag": "Upcycle",
+      "imageUrl": "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=jean%20shorts%20upcycle"
+    },
+    {
+      "id": "pj-3",
+      "title": "Tiro alto con cintura recuperada",
+      "tag": "Ajuste",
+      "imageUrl": "https://images.unsplash.com/photo-1624378515194-6eb036757a0e?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=pantalon%20tiro%20alto%20reforma"
+    },
+    {
+      "id": "pj-4",
+      "title": "Parche decorativo en rodilla",
+      "tag": "Reparación",
+      "imageUrl": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=jean%20parche%20visible"
+    }
+  ],
+  "camisa-blusa": [
+    {
+      "id": "cb-1",
+      "title": "Camisa oversize con hombro caído",
+      "tag": "Silueta",
+      "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=camisa%20oversize%20reforma"
+    },
+    {
+      "id": "cb-2",
+      "title": "Blusa crop con lazo frontal",
+      "tag": "Transformación",
+      "imageUrl": "https://images.unsplash.com/photo-1564257631408-4deb1f99d992?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=blusa%20crop%20diy"
+    },
+    {
+      "id": "cb-3",
+      "title": "Puños y cuello en contraste",
+      "tag": "Detalle",
+      "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=camisa%20detalle%20contraste"
+    },
+    {
+      "id": "cb-4",
+      "title": "Top sin mangas desde camisa",
+      "tag": "Upcycle",
+      "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=camisa%20transformar%20top"
+    }
+  ],
+  "abrigo-campera": [
+    {
+      "id": "ac-1",
+      "title": "Campera corta estilo bomber",
+      "tag": "Silueta",
+      "imageUrl": "https://images.unsplash.com/photo-1548126032-079a0fb0099c?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=campera%20bomber%20reforma"
+    },
+    {
+      "id": "ac-2",
+      "title": "Forro interior renovado",
+      "tag": "Interior",
+      "imageUrl": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=abrigo%20forro%20cambio"
+    },
+    {
+      "id": "ac-3",
+      "title": "Parches en coderas con estilo",
+      "tag": "Detalle",
+      "imageUrl": "https://images.unsplash.com/photo-1551028711-22b7ce3a70f9?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=abrigo%20parches%20coderas"
+    },
+    {
+      "id": "ac-4",
+      "title": "Cinturón integrado en cintura",
+      "tag": "Ajuste",
+      "imageUrl": "https://images.unsplash.com/photo-1521223890668-fc7b2b0a1d2c?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=abrigo%20cintura%20marcada"
+    }
+  ],
+  "remera-top": [
+    {
+      "id": "rt-1",
+      "title": "Crop top con recorte asimétrico",
+      "tag": "Transformación",
+      "imageUrl": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=remera%20crop%20upcycle"
+    },
+    {
+      "id": "rt-2",
+      "title": "Top con nudo lateral",
+      "tag": "Detalle",
+      "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=top%20nudo%20diy"
+    },
+    {
+      "id": "rt-3",
+      "title": "Estampado o bordado en pecho",
+      "tag": "Personalización",
+      "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=remera%20bordado%20diy"
+    },
+    {
+      "id": "rt-4",
+      "title": "Manga abullonada desde remera básica",
+      "tag": "Silueta",
+      "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=remera%20manga%20abullonada"
+    }
+  ],
+  "calzado": [
+    {
+      "id": "cz-1",
+      "title": "Pintura y detalle en puntera",
+      "tag": "Personalización",
+      "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=zapatillas%20custom%20pintura"
+    },
+    {
+      "id": "cz-2",
+      "title": "Cambio de cordones y ojales",
+      "tag": "Detalle",
+      "imageUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=zapatos%20cordones%20color"
+    },
+    {
+      "id": "cz-3",
+      "title": "Resole con suela contrastada",
+      "tag": "Reparación",
+      "imageUrl": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=zapatos%20resole%20custom"
+    },
+    {
+      "id": "cz-4",
+      "title": "Botines desde zapato clásico",
+      "tag": "Transformación",
+      "imageUrl": "https://images.unsplash.com/photo-1543163521-1bf539c55dd1?w=400&q=80",
+      "pinterestUrl": "https://www.pinterest.com/search/pins/?q=zapatos%20transformar%20botines"
+    }
+  ]
+}

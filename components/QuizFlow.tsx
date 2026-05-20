@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
+import { ImageIcon } from "lucide-react";
 
 import { ProgressBar } from "@/components/ProgressBar";
 import { QuizOption } from "@/components/QuizOption";
@@ -46,7 +47,7 @@ const Q4 = [
 const Q5 = [
   {
     id: "look-si",
-    label: "Sí, te muestro mi inspiración (subida mock en el demo)",
+    label: "Sí, tengo una imagen de inspiración",
     emoji: "📌",
   },
   { id: "look-abierta", label: "No, pero estoy abierta a sugerencias", emoji: "🤔" },
@@ -73,6 +74,9 @@ export function QuizFlow({ resetOnMount = true }: QuizFlowProps) {
   const nextStep = useQuizStore((s) => s.nextStep);
   const prevStep = useQuizStore((s) => s.prevStep);
   const reset = useQuizStore((s) => s.reset);
+  const inspirationFileName = useQuizStore((s) => s.inspirationFileName);
+  const setInspirationFile = useQuizStore((s) => s.setInspirationFile);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (resetOnMount) reset();
@@ -178,15 +182,35 @@ export function QuizFlow({ resetOnMount = true }: QuizFlowProps) {
             />
           ))}
           {selected === "look-si" ? (
-            <div className="pt-2">
+            <div className="space-y-2 pt-2">
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/*"
+                className="sr-only"
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  setInspirationFile(file ? file.name : null);
+                }}
+              />
               <Button
                 type="button"
                 variant="outline"
-                disabled
-                className="rounded-cta border-dashed border-madera/30 text-madera-mute"
+                onClick={() => fileInputRef.current?.click()}
+                className="w-full rounded-cta border-dashed border-terracota/40 text-madera hover:bg-durazno-light"
               >
-                Subir archivo (demo)
+                <ImageIcon className="mr-2 size-4" aria-hidden />
+                {inspirationFileName ? "Cambiar imagen" : "Subir tu inspiración"}
               </Button>
+              {inspirationFileName ? (
+                <p className="text-sm text-madera-soft">
+                  Archivo: <span className="font-medium text-madera">{inspirationFileName}</span>
+                </p>
+              ) : (
+                <p className="text-xs text-madera-mute">
+                  Opcional en el demo: JPG o PNG para mostrar en resultados.
+                </p>
+              )}
             </div>
           ) : null}
         </QuizQuestion>

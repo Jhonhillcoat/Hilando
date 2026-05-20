@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
+import { InspirationTabs } from "@/components/InspirationTabs";
 import { ResultCard } from "@/components/ResultCard";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
@@ -14,6 +15,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { getLookChoice, wantsInspirationPanel } from "@/lib/inspiration";
 import {
   decideCamino,
   formatArs,
@@ -67,6 +69,8 @@ export default function ResultPage() {
   const { estimates } = decision;
 
   const others = (["donar", "reparar", "vender"] as Camino[]).filter((c) => c !== shown);
+  const lookChoice = getLookChoice(answers);
+  const showInspiration = wantsInspirationPanel(answers);
 
   return (
     <div className="mx-auto max-w-3xl px-4 pb-24 pt-10 sm:px-6">
@@ -143,6 +147,10 @@ export default function ResultPage() {
           ) : null}
         </div>
       </section>
+
+      {showInspiration && lookChoice ? (
+        <InspirationTabs answers={answers} lookChoice={lookChoice} />
+      ) : null}
 
       {shown === "reparar" ? (
         <section id="oficios" className="mt-10">
